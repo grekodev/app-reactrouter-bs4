@@ -8,3 +8,4 @@ App created with create-react app + react router 3.0 + bootstrap 4 alpha 5 , it 
 - cd app-reactrouter-bs4
 - npm install
 - npm start
+- go to http://localhost:3000
