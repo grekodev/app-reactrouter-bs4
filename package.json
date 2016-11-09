@@ -1,8 +1,7 @@
-
-
 {
-  "name": "app-reactrouter-bs4",
+  "name": "apptest",
   "version": "0.1.0",
+  "private": true,
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
