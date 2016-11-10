@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
 
 export default class AboutPage extends Component {
-constructor(props) {
+    constructor(props) {
     super(props);
 
     }
-render() {
-    return( 
-<div className="row">
-	<h1>About Page</h1>
-</div>
+    render() {    
+    return(
+    <div className="container-fluid">
+        <div className="row">
+            <h1>About Page</h1>            
+        </div>
+    </div>
     	);
     }
 }

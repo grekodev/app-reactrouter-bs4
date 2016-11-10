@@ -3,14 +3,14 @@ import Header from './Header';
 import './App.css';
 
 export default class App extends Component {
-  render() {
+    render() {
     return (
-<div className="container-fluid">
-  <Header />
-  <div className="appContent">  
-    {this.props.children}    
-  </div>  
-</div>      
+    <div>
+      <Header />
+      <div className="container-fluid">  
+        {this.props.children}    
+      </div>  
+    </div>      
     );
   }
 }

@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
 
 export default class NotFound extends Component {
-constructor(props) {
+    constructor(props) {
     super(props);
     }
 
-render() {
+    render() {
     return( 
-<div className="row text-xs-center">
-	<h1>404!</h1>
-	<p>The page you are looking for does not exist</p>
-</div>
+    <div className="container-fluid">
+        <div className="row text-xs-center">
+            <h1>404!</h1>
+            <p>The page you are looking for does not exist</p>
+        </div>
+    </div>
     );
   }
 }
